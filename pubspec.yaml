@@ -1,0 +1,50 @@
+name: ESS
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Commented out all dependencies
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  http: ^1.2.1
+  flutter_easyloading: ^3.0.5
+  intl_phone_field: ^3.2.0
+  shared_preferences: ^2.2.3
+  jwt_decoder: ^2.0.1
+  fluttertoast: ^8.2.6
+  toastification: ^2.0.0
+  timezone: ^0.9.4
+  connectivity_plus: ^4.0.1
+  wifi_info_flutter: ^2.0.2
+  permission_handler: ^11.3.1
+  #local_auth: ^2.2.0
+  #qr_code_scanner: ^1.0.1
+
+
+  
+  
+
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Commented out flutter_lints
+  # flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/fonts/
